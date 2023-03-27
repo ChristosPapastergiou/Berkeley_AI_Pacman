@@ -151,8 +151,6 @@ class MinimaxAgent(MultiAgentSearchAgent):
         """
         "*** YOUR CODE HERE ***"
 
-        # Just like the algorithm from the slides
-
         NumberOfAgents = gameState.getNumAgents()
 
         def MinimaxDecision(gameState):
@@ -204,7 +202,7 @@ class AlphaBetaAgent(MultiAgentSearchAgent):
         """
         "*** YOUR CODE HERE ***"
 
-        # Like minimax algorithm but we need to use also alpha and beta values. Just like the algorithm from the slides
+        # Like minimax algorithm but we need to use also alpha and beta values
 
         NumberOfAgents = gameState.getNumAgents()
         
